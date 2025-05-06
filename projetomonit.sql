@@ -1550,12 +1550,12 @@ INSERT INTO itmn_evento values (null, '2020-3-21', 5,6);
 
 -- Criando nova tabela para o projeto monit
 create table itmn_usuario (
-	id_usuario 				integer			not null auto_increment primary key,
-    nome_usuario 			varchar(150)	not null,
-    email_usuario 			varchar (100)	unique not null ,
-    racf_usuario 			varchar (7)		unique not null ,
-    departamento_usuario 	varchar (100),
-    link_foto				varchar(255)
+	id_usuario 			integer			not null	auto_increment primary key,
+	nome_usuario 			varchar(150)		not null,
+	email_usuario 			varchar (100)		unique not null ,
+	racf_usuario 			varchar (7)		unique not null ,
+	departamento_usuario		varchar (100),
+	link_foto			varchar(255)
     
 );
 
