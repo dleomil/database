@@ -7,9 +7,9 @@ use itau;
 -- Criando tabelas na base itau
 create table itau.clientes (
 	codigo_cliente	integer not null primary key,
-    nome_cliente	varchar (50) not null,
-    idade_cliente	integer not null,
-    email_cliente	varchar (80) not null
+	nome_cliente	varchar (50) not null,
+	idade_cliente	integer not null,
+	email_cliente	varchar (80) not null
 );
 
 -- Verificando estrutura de tabelas
